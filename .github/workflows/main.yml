@@ -12,5 +12,5 @@ jobs:
     - uses: actions/checkout@v2
     - uses: LuisEnMarroquin/gh-pages-publish@v2.4.4
       with:
-        FOLDER: ~
+        FOLDER: /home/runner/work/giggatube.github.com/giggatube.github.com
         SSHKEY: ${{ secrets.SSH }}
