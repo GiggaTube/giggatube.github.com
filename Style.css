@@ -48,8 +48,11 @@ h6 {
       border:#000000
   }
   html, button {
-    background: rgb(154, 35, 35);
-    background: linear-gradient(129deg, rgba(154, 35, 35, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: rgb(62, 12, 12);
+    background: -moz-linear-gradient(129deg, rgba(62, 12, 12, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(129deg, rgba(62, 12, 12, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(129deg, rgba(62, 12, 12, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e0c0c", endColorstr="#000000", GradientType=1);
   }
   #close {
       background: rgba(0,0,0,0);
