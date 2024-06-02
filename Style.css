@@ -1,5 +1,3 @@
-background: rgb(154,35,35);
-background: linear-gradient(129deg, rgba(154,35,35,1) 0%, rgba(0,0,0,1) 100%);
 #popup {
   animation: popup 1s ease-in-out 0s normal none;
   -webkit-animation: popup 1s ease-in-out 0s normal none;
@@ -50,7 +48,8 @@ h6 {
       border:#000000
   }
   html, button {
-      background:#21242a;
+    background: rgb(154, 35, 35);
+    background: linear-gradient(129deg, rgba(154, 35, 35, 1) 0%, rgba(0, 0, 0, 1) 100%);
   }
   #close {
       background: rgba(0,0,0,0);
